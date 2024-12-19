@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/github.io/editor/static/css/main.b87c7090.chunk.css",
-    "main.js": "/github.io/editor/static/js/main.6413bb01.chunk.js",
-    "main.js.map": "/github.io/editor/static/js/main.6413bb01.chunk.js.map",
-    "runtime~main.js": "/github.io/editor/static/js/runtime~main.f383a249.js",
-    "runtime~main.js.map": "/github.io/editor/static/js/runtime~main.f383a249.js.map",
-    "static/js/2.ad2ffeb6.chunk.js": "/github.io/editor/static/js/2.ad2ffeb6.chunk.js",
-    "static/js/2.ad2ffeb6.chunk.js.map": "/github.io/editor/static/js/2.ad2ffeb6.chunk.js.map",
-    "index.html": "/github.io/editor/index.html",
-    "precache-manifest.71b839d81748657ba0cca3ee139d06e8.js": "/github.io/editor/precache-manifest.71b839d81748657ba0cca3ee139d06e8.js",
-    "service-worker.js": "/github.io/editor/service-worker.js",
-    "static/css/main.b87c7090.chunk.css.map": "/github.io/editor/static/css/main.b87c7090.chunk.css.map"
+    "main.css": "/editor/static/css/main.b87c7090.chunk.css",
+    "main.js": "/editor/static/js/main.6413bb01.chunk.js",
+    "main.js.map": "/editor/static/js/main.6413bb01.chunk.js.map",
+    "runtime~main.js": "/editor/static/js/runtime~main.1594e5d4.js",
+    "runtime~main.js.map": "/editor/static/js/runtime~main.1594e5d4.js.map",
+    "static/js/2.500a565c.chunk.js": "/editor/static/js/2.500a565c.chunk.js",
+    "static/js/2.500a565c.chunk.js.map": "/editor/static/js/2.500a565c.chunk.js.map",
+    "index.html": "/editor/index.html",
+    "precache-manifest.6f0f8ac346c8b3742e30a33deb15b924.js": "/editor/precache-manifest.6f0f8ac346c8b3742e30a33deb15b924.js",
+    "service-worker.js": "/editor/service-worker.js",
+    "static/css/main.b87c7090.chunk.css.map": "/editor/static/css/main.b87c7090.chunk.css.map"
   }
 }
