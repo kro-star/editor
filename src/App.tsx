@@ -11,8 +11,7 @@ function App() {
   const [consoleOutput, setConsoleOutput] = useState('');
   const [language,setLanguage] = useState('javaScript');
   const [code, setCode] = useState(`//Введите сюда код`);
-  const [numberTask, setNumberTask] = useState(1);
-  const [textTask, setTextTask] = useState('');
+  const [numberTask, setNumberTask] = useState(0);
 
   const tasks = [
     {
@@ -31,6 +30,7 @@ function App() {
 
 
   const [answer,setAnswer] = useState<number | string>(tasks[0].answer);
+  const [textTask, setTextTask] = useState(tasks[0].description);
 
   const handleLanguageChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     setLanguage(e.target.value);

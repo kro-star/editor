@@ -1,5 +1,6 @@
 {
-  "name": "Code editor",
+  "name": "editor",
+  "homepage": "https://kro-star.github.io/editor",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,7 +13,6 @@
     "@uiw/react-codemirror": "^4.23.6",
     "codemirror": "^6.0.1",
     "cra-template": "1.2.0",
-    "gh-pages": "^6.2.0",
     "http-crud": "^4.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -22,8 +22,8 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -48,6 +48,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react": "^19.0.1"
+    "@types/react": "^19.0.1",
+    "gh-pages": "^6.2.0"
   }
 }
