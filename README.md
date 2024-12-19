@@ -7,6 +7,7 @@
 #### `git clone https://github.com/YOUR-USERNAME/editor`
 
 YOUR-USERNAME - имя вашего пользователя на github.com
+
 editor - имя клонируемого проекта
 
 3. Перейдите в корневую директорию склонированного проекта коммандой
