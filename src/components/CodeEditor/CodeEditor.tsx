@@ -27,14 +27,6 @@ const CodeEditor: React.FC<CodeEditorProps> = ({
   }, [initialCode]);
 
 
-  const handleChange = (value: string) => {
-      onChange(value);
-    if (onChange) {
-      onChange(value);
-    }
-  };
-
-  
 let extensions = [];
   switch (language) {
       case "javascript":
@@ -62,7 +54,7 @@ let extensions = [];
             theme={theme === 'dracula' ? dracula : undefined}
             height={heigthCodeMirror}
             extensions={extensions}
-            onChange={handleChange}
+            onChange={onChange}
             onUpdate={(update) => {
                 editorRef.current = update.view;
             }}
